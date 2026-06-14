@@ -133,7 +133,7 @@ Contains `print_delete(books)` - searches for a book and removes a specified qua
 
 - All book data is stored in memory (a Python list). Data will reset when the program exits.
 - Each module imports only what it needs from `heading.py` and `message.py` keeping dependencies minimal.
-- The `books` list lives in `main.py` and is passed as an argument to each function — no global database file is used.
+- The `books` list lives in `main.py` and is passed as an argument to each function - no global database file is used.
 
 
 
