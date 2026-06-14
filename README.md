@@ -61,7 +61,7 @@ When you run main.py, the following menu appears:
 0. Exit
 
 
-### Example — Adding a book
+### Example - Adding a book
 
 
 Enter your choice: 1
@@ -75,7 +75,7 @@ Book Name: Python Basics Successfully Added
 0. Exit
 
 
-### Example — Listing books
+### Example - Listing books
 
 
 Enter your choice: 2
@@ -86,7 +86,7 @@ Enter your choice: 2
 ---------------------------------------------
 
 
-### Example — Selling a book
+### Example - Selling a book
 
 
 Enter your choice: 3
@@ -100,32 +100,32 @@ Enter Sell Quantity: 3
 ## 🧩 Module Responsibilities
 
 ### menu.py
-Contains `print_menu()` — prints the main navigation menu.
+Contains `print_menu()` - prints the main navigation menu.
 
 ### heading.py
-Contains `print_title(title)` — prints a decorative section header for each operation.
+Contains `print_title(title)` - prints a decorative section header for each operation.
 
 ### message.py
 Contains shared message functions used across modules:
-- `closing_msg()` — prints exit message
-- `back_or_exit()` — prints Back/Exit navigation options
-- `book_found_msg()` — prints success message when a book is found
-- `book_not_found_msg()` — prints error message when a book is not found
+- `closing_msg()` - prints exit message
+- `back_or_exit()` - prints Back/Exit navigation options
+- `book_found_msg()` - prints success message when a book is found
+- `book_not_found_msg()` - prints error message when a book is not found
 
 ### create.py
-Contains `print_create(books)` — handles taking user input and appending a new book to the list.
+Contains `print_create(books)` - handles taking user input and appending a new book to the list.
 
 ### list.py
-Contains `print_list(books)` — displays all books in a formatted table.
+Contains `print_list(books)` - displays all books in a formatted table.
 
 ### sell.py
-Contains `print_sell(books)` — searches for a book and reduces its quantity after a sale.
+Contains `print_sell(books)` - searches for a book and reduces its quantity after a sale.
 
 ### update.py
-Contains `print_update(books)` — searches for a book and increases its stock quantity.
+Contains `print_update(books)` - searches for a book and increases its stock quantity.
 
 ### delete.py
-Contains `print_delete(books)` — searches for a book and removes a specified quantity.
+Contains `print_delete(books)` - searches for a book and removes a specified quantity.
 
 
 
